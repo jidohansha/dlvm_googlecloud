@@ -1,12 +1,12 @@
 variable "project" {
-  default = "jido-terraform"
+  default     = "project_id"
   type        = string
 }
 variable "credentials" {
   type    = string
-  default = "/Users/anthonymorales/zfiles/ztechnology/mlvm/jido-terraform-fe6bb7ca6550.json"
+  default = "credentialsfilepath.json"
 }
 variable "zone" {
-  default = "us-central1-b"
+  default = "zone_name"
   type    = string
 }
