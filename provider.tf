@@ -10,9 +10,9 @@ terraform {
 
 /*
 provider "google" {
-  credentials = "/Users/anthonymorales/zfiles/ztechnology/mlvm/jido-terraform-fe6bb7ca6550.json"
-  project     = "jido-terraform"
-  zone        = "us-central1-b"
+  credentials = "credentialsfilepath"
+  project     = "project_id"
+  zone        = "zone_name"
 
 }
 */
