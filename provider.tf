@@ -10,7 +10,7 @@ terraform {
 
 /*
 provider "google" {
-  credentials = "credentialsfilepath"
+  credentials = "credentialsfilepath.json"
   project     = "project_id"
   zone        = "zone_name"
 
