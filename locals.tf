@@ -1,6 +1,6 @@
 
 resource "google_compute_instance" "dlvm0" {
-  name         = "jido00100"
+  name         = "instance_name"
   machine_type = "n2-standard-2"
   zone         = "us-central1-b"
 
@@ -20,7 +20,7 @@ resource "google_compute_instance" "dlvm0" {
 }
 
 resource "google_compute_instance" "dlvm1" {
-  name         = "jido00101"
+  name         = "instance_name"
   machine_type = "n2-standard-2"
   zone         = "us-central1-b"
 
@@ -40,7 +40,7 @@ resource "google_compute_instance" "dlvm1" {
 }
 
 resource "google_compute_instance" "dlvm2" {
-  name         = "jido00102"
+  name         = "instance_name"
   machine_type = "n2-standard-2"
   zone         = "us-central1-b"
 
